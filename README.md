@@ -36,9 +36,11 @@ Hans McMurdy is an experianced web developer and coding teacher.
 This is a brief mongo tutorial in GitPod and originally built for docker and docker compose which you can see [here](https://github.com/HansUXdev/OSS-Books/tree/master/JavaScript-First/00-JavaScript-DataBases/mongo).
 
 ## Using Mongo Shell to build a database
+  Type the following into a NEW terminal: ` mongo`. Because no one in chat wanted to help me run it in headless mode (thanks, support :-) ).
+  
   Lets go ahead and create a new *collection* and use it. 
 
-  Type the following into the terminal: `use learnMongo`. 
+  Type the following into the terminal: `use mongo`. 
 
   We can then show the database we are using by using the `db` command.
 
