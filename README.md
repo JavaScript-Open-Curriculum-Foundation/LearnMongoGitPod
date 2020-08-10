@@ -1,8 +1,15 @@
 # MongoLearnPod
 An education GitPod module intended to teach individuals how to use mongo on any machine.
+Here we are applying the idea of [GhostPlate](https://github.com/HansUXdev/GhostPlate) built on GitPod to education instead of Industry at scale ...
+
+# How to use?:
+See that button?
+Click it with your right index finger and wait.
+If you use any other finger I will bite it off.
+[![Open in Gitpod](http://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/gitpod-io/gitpod-status)
 
 
-
+Then follow the directions inside the GitPod. Don't worry its still better than Microsoft documentation...
 
 ## Unit Learning Objective
 Students should be to:
