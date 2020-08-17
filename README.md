@@ -30,6 +30,9 @@ You can also view the slide on vscode with [vscode-reveal](https://marketplace.v
 
 [![GIF of Slideshow](lessons/lesson1.gif)]()
 
+Last but not least, I will be streaming lessons on [my twitch channel](https://www.twitch.tv/hansoncoding/about) so consider joining the lesson live.
+
+![Twitch Status](https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge)
 
 
 
