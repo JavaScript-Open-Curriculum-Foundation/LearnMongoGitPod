@@ -17,7 +17,15 @@ Assuming you are logged into github, then just click the button below. Phone, Ta
    <a href="https://gitpod.io/#https://github.com/HansUXdev/MongoLearnPodt"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Open on GitPod" height="50px"/></a>  
 </p>
 
-Then follow the directions inside the GitPod. Here is a gif of the slideshow which was built using [vscode-reveal](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal). If you have the extension installed you can follow long with the fancy [slideshow](./01-CRUD.md), otherwise you can just read it in readme formate and it'll just look slightly less presentable...
+Once GitPod has started up, just type `mongo` into the terminal and it should look something like the gif below. 
+
+[![GIF of Slideshow](lessons/start.gif)]()
+
+Unfortunately, the fancy slideshow extension I just for this lesson doesn't work in gitpod... yet (stay tuned).
+
+In the meantime, I recorded a [short video](https://recordit.co/ns0fuHZheI) of the lesson. 
+
+You can also view the slide on vscode with [vscode-reveal](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal). If you have the extension installed you can follow long with the fancy [slideshow](./01-CRUD.md). Lastly, you can just read it in readme formate and it'll just look slightly less presentable...
 
 
 [![GIF of Slideshow](lessons/lesson1.gif)]()
