@@ -100,6 +100,7 @@ Values have a datatype
 
 ## Exercise 1: Oh CRUD...
 
+To get started just click the gitpod button after signing into github, then type `mongo` into the shell..
 
 --
 
