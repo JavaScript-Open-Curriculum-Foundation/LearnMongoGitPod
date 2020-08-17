@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mongo:
+    container_name: learn-mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+  # MongoAdmin kinda like phpmysql
+  # DOCS: https://hub.docker.com/_/mongo-express
+  mongo-express:
+    image: "mongo-express:latest"
+    ports:
+      - "8081:8081"
