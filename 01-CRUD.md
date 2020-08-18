@@ -3,7 +3,7 @@ title: "Introduction to Mongo"
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/logo.drawio.svg"
 theme : "night"
 transition: "slide"
-# highlightTheme: "monokai"
+highlightTheme: "dracula"
 slideNumber: true
 # loop: true
 # autoSlide: 5000 
@@ -16,6 +16,7 @@ enableChalkboard: false
 ---
 
 <style>
+.line.focus{background:none;font-size: xx-large;color:#5cc4ea;}
 #logo > img {max-height: 10.5em;}
 .p1{padding:1em; border:none}
 </style>
@@ -77,7 +78,6 @@ Key VS Column { .fragment }
 :::block
 Document VS Record { .fragment }
 
-Key: values 
 :::
 
 
@@ -92,9 +92,25 @@ Values have a datatype
 
 ### What is C.R.U.D.?
 
-[![](assets/CRUD.drawio.svg)]()
-{ .fragment .p1}
 
+:::block
+[![](assets/CRUD.drawio.svg)]() 
+
+{style=width:50%;float:left; height:50%}
+
+:::
+
+:::block
+**C**reate with `insert( )` { .fragment }
+
+**R**ead with `find( )` { .fragment }
+
+**U**pdate with `update( )` { .fragment }
+
+**D**elete with `remove( )`  { .fragment }
+
+{style=width:50%;float:right; height:50%}
+:::
 
 ---
 
@@ -150,7 +166,7 @@ call the database and the collection {.fragment .current-only data-code-focus=11
 
 add another lawyer from the state bar, "Doug" {.fragment .current-only data-code-focus=18-18}
 
-**DELETES** a disbar the lawyer "Doug" {.fragment .current-only data-code-focus=20-20}
+**DELETE** the lawyer "Doug" {.fragment .current-only data-code-focus=20-20}
 
   
 {style=width:20%;float:right}

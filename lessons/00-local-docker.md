@@ -4,12 +4,12 @@ Here we are applying the idea of [GhostPlate](https://github.com/HansUXdev/Ghost
 
 # How to use?:
 See that button?
-Click it with your right index finger and wait.
-If you use any other finger I will bite it off.
-[![Open in Gitpod](http://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/gitpod-io/gitpod-status)
+Click it.
 
+<p align="center">  
+   <a href="https://gitpod.io/#https://github.com/HansUXdev/MongoLearnPodt"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Open on GitPod" height="50px"/></a>  
+</p>
 
-Then follow the directions inside the GitPod. Don't worry its still better than Microsoft documentation...
 
 ## Unit Learning Objective
 Students should be to:
@@ -28,9 +28,6 @@ Students should be to:
 2. Use docker exec to access the mongoDB Shell 
 3. Distinguish between the name of a docker image (mongo) and the container name (learn-mongo)
 4. Use NPM Scripts to store docker commands such as docker exec for mongo shell
-
-# About me
-Hans McMurdy is an experianced web developer and coding teacher.
 
 ## About
 This is a brief mongo tutorial in GitPod and originally built for docker and docker compose which you can see [here](https://github.com/HansUXdev/OSS-Books/tree/master/JavaScript-First/00-JavaScript-DataBases/mongo).
@@ -95,6 +92,9 @@ This is a brief mongo tutorial in GitPod and originally built for docker and doc
       - ```docker exec -it learn-mongo mongo```
 
 # Conclusion
+
 ## Key learnings
+
 ## Tips and advice
+
 ## Final thoughts and next steps
