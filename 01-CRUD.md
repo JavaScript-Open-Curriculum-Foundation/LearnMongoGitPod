@@ -20,13 +20,73 @@ enableChalkboard: false
 /* #logo {text-align:center} */
 #logo > img {max-height: 10.5em;}
 .p1{padding:1em; border:none}
+.flex-slide{display:flex}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 4;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.present {}
+.flex-slide p.fragment{ font-size: 0.6em; }
+
+.reveal ul{ margin:0 !important; } 
+
 </style>
 
+
+
+---
+
+
+### STARTING SOON 
+
+ 
+```javascript
+console.log("Hello World!")
+```
+<!-- Help them: remember -->
+Logging twitch... {.fragment .current-only data-code-focus=1-1 }
+
+
+---
+
+
+
 ### Why learn MongoDB?
-* JavaScript Syntax based off JSON { .fragment }
+
+<div class="flex-slide">
+
+:::block
+[![](assets/mongo.drawio.svg)]() {.fragment .current-only }
+
+{.column}
+:::
+
+:::block
+JavaScript-like Syntax {.fragment .current-only }
 * Simple to learn { .fragment }
 
---
+<!-- * Collections VS Tables { .fragment }
+
+* Key VS Column { .fragment } -->
+
+{.double-column}
+:::
+
+</div>
+
+<!-- https://www.mongodb.com/json-and-bson -->
+
+
+---
 
 ### What is JSON?
 * Stands for, JavaScript Object Notation
@@ -43,8 +103,111 @@ enableChalkboard: false
   { "name":"Jane" }
   ```
 
+---
 
---
+
+### What is C.R.U.D.?
+
+
+:::block
+[![](assets/CRUD.drawio.svg)]() 
+
+{style=width:50%;float:left; height:50%}
+
+:::
+
+:::block
+**C**reate with `insert( )` { .fragment }
+
+**R**ead with `find( )` { .fragment }
+
+**U**pdate with `update( )` { .fragment }
+
+**D**elete with `remove( )`  { .fragment }
+
+{style=width:50%;float:right; height:50%}
+:::
+
+---
+
+
+### Comparing CREATE Methods
+#### Query Syntax: SQL
+
+
+
+<div class="flex-slide">
+
+:::block
+<!-- [![](assets/mongo.drawio.svg)]() { .fragment .p1} -->
+
+```sql
+INSERT INTO book('title', 'author')
+VALUES('JavaScript First', '@HansOnConsult');
+```
+
+{.column}
+:::
+
+:::block
+  Step:1 INSERT INTO speficies the table `book` will be added  {.fragment .current-only data-code-focus=1-1} 
+
+  The `( )` set the **something**  {.fragment .current-only data-code-focus=1-1}
+
+  `VALUES()` stores the information in columns  {.fragment .current-only data-code-focus=2-2}
+
+
+{.double-column}
+:::
+
+</div>
+
+
+---
+
+### Comparing CREATE Methods
+#### Query Syntax: SQL
+
+
+<div class="flex-slide">
+
+:::block
+<!-- [![](assets/mongo.drawio.svg)]() { .fragment .p1} -->
+
+```javascript
+db.book.insert(
+  {
+    title:"JavaScript First",
+    author:"HansOnConsult"
+  }
+);
+```
+
+{.column}
+:::
+
+:::block
+<!-- understand -->
+ 
+ `db` refers to the current database {.fragment .current-only data-code-focus=1-1}
+
+ `book` refers to the collection  {.fragment .current-only data-code-focus=1-1}
+
+Start `{}`   {.fragment .current-only data-code-focus=2-2}
+
+Ends `{}`   {.fragment .current-only data-code-focus=5-5}
+<!-- Help them: understand -->
+`title` refers to the **key**  {.fragment .current-only data-code-focus=3-3 }
+<!-- Help them: understand -->
+the text inside  `" "` refers to the **value**  {.fragment .current-only data-code-focus=3-4 }
+
+
+{.double-column}
+:::
+
+</div>
+
+---
 
 ### Mongo VS SQL
 
@@ -88,30 +251,6 @@ Document VS Record { .fragment }
 Values have a datatype
 
 ![Table of Mongo DataTypes](assets/datatypes.drawio.svg)
-
----
-
-### What is C.R.U.D.?
-
-
-:::block
-[![](assets/CRUD.drawio.svg)]() 
-
-{style=width:50%;float:left; height:50%}
-
-:::
-
-:::block
-**C**reate with `insert( )` { .fragment }
-
-**R**ead with `find( )` { .fragment }
-
-**U**pdate with `update( )` { .fragment }
-
-**D**elete with `remove( )`  { .fragment }
-
-{style=width:50%;float:right; height:50%}
-:::
 
 ---
 
