@@ -14,7 +14,7 @@ Students should be to:
 Assuming you are logged into github, then just click the button below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!
 
 <p align="center">  
-   <a href="https://gitpod.io/#https://github.com/HansUXdev/MongoLearnPodt"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Open on GitPod" height="50px"/></a>  
+   <a href="https://gitpod.io/#https://github.com/HansUXdev/MongoLearnPod"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Open on GitPod" height="50px"/></a>  
 </p>
 
 Once GitPod has started up, just type `mongo` into the terminal and it should look something like the gif below. 

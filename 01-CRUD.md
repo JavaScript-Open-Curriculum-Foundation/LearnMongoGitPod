@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Mongo"
-logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/884d95cce59c213f6bb2af7e6d54977b7e06b048/logo.drawio.svg"
+logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
 highlightTheme: "dracula"
@@ -17,6 +17,7 @@ enableChalkboard: false
 
 <style>
 .line.focus{background:none;font-size: xx-large;color:#5cc4ea;}
+/* #logo {text-align:center} */
 #logo > img {max-height: 10.5em;}
 .p1{padding:1em; border:none}
 </style>
