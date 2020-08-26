@@ -46,7 +46,7 @@ enableChalkboard: false
 ---
 
 
-### STARTING SOON 
+### STARTING SOON ....
 
  
 ```javascript
@@ -65,20 +65,20 @@ Logging twitch... {.fragment .current-only data-code-focus=1-1 }
 <div class="flex-slide">
 
 :::block
-[![](assets/mongo.drawio.svg)]() {.fragment .current-only }
+[![](assets/mongo.drawio.svg)]() 
 
 {.column}
 :::
 
 :::block
-JavaScript-like Syntax {.fragment .current-only }
-* Simple to learn { .fragment }
+JavaScript-like Syntax
+* Simple to learn 
 
 <!-- * Collections VS Tables { .fragment }
 
 * Key VS Column { .fragment } -->
 
-{.double-column}
+{.double-column .fragment}
 :::
 
 </div>
@@ -102,6 +102,18 @@ JavaScript-like Syntax {.fragment .current-only }
   { "name":"John" },
   { "name":"Jane" }
   ```
+
+---
+
+
+### [BSON](https://www.mongodb.com/json-and-bson) is Binary JSON 
+
+
+Has more datatypes than javascript  {.fragment .current-only data-code-focus=1-1 }
+
+
+![Table of Mongo DataTypes](assets/datatypes.drawio.svg)
+
 
 ---
 
@@ -166,7 +178,7 @@ VALUES('JavaScript First', '@HansOnConsult');
 ---
 
 ### Comparing CREATE Methods
-#### Query Syntax: SQL
+#### Query Syntax: Mongo
 
 
 <div class="flex-slide">
@@ -206,51 +218,6 @@ the text inside  `" "` refers to the **value**  {.fragment .current-only data-co
 :::
 
 </div>
-
----
-
-### Mongo VS SQL
-
-:::block
-[![](assets/mongo-VS-sql.drawio.svg)]() { .fragment .p1}
-
-{style=width:50%;float:left; height:50%}
-
-:::
-
-:::block
-Collections VS Tables { .fragment }
-
-Key VS Column { .fragment }
-
-  
-{style=width:50%;float:right}
-
-:::
-
---
-
-### Mongo VS SQL
-
-:::block
-[![](assets/mongo-VS-sql-2.drawio.svg)]() 
-
-{style=width:50%;float:left; height:50%}
-
-:::
-
-:::block
-Document VS Record { .fragment }
-
-:::
-
-
---
-
-### Mongo Datatypes
-Values have a datatype
-
-![Table of Mongo DataTypes](assets/datatypes.drawio.svg)
 
 ---
 
