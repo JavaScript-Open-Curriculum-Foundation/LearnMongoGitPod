@@ -1,5 +1,8 @@
 ---
+# This readme file is best viewed as a slideshow powever by [vscode-reveal](https://github.com/evilz/vscode-reveal)
+# Doesn't work well in GitPod yet ... https://github.com/evilz/vscode-reveal/issues/527
 title: "Introduction to Mongo"
+# The logo can be swapped out with Free Code Camp
 logoImg: "https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg"
 theme : "night"
 transition: "slide"
@@ -15,48 +18,7 @@ enableChalkboard: false
 # enableTitleFooter: false
 ---
 
-<style>
-.line.focus{background:none;font-size: xx-large;color:#5cc4ea;}
-/* #logo {text-align:center} */
-#logo > img {max-height: 10.5em;}
-.p1{padding:1em; border:none}
-.flex-slide{display:flex}
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 4;
-}
-
-.double-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.present {}
-.flex-slide p.fragment{ font-size: 0.6em; }
-
-.reveal ul{ margin:0 !important; } 
-
-</style>
-
-
-
----
-
-
-### STARTING SOON ....
-
- 
-```javascript
-console.log("Hello World!")
-```
-<!-- Help them: remember -->
-Logging twitch... {.fragment .current-only data-code-focus=1-1 }
-
-
----
+<!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/master/theme.css"> -->
 
 
 
