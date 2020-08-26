@@ -18,7 +18,7 @@ enableChalkboard: false
 # enableTitleFooter: false
 ---
 
-<!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/master/theme.css"> -->
+<link rel="stylesheet" href="../theme.css">
 
 
 

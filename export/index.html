@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>title</title>
+  <title>HTTP with Node</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="libs/reveal.js/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/reveal.css">
   
-  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/night.css" id="theme">
   
   
   <link rel="stylesheet" href="libs/reveal.js/3.8.0/plugin/title-footer/title-footer-mod.css" />
@@ -96,7 +96,7 @@
 
   <!-- Theme used for syntax highlighting of code -->
   
-  <link rel="stylesheet" href="libs/highlight.js/9.12.0/Zenburn.css">
+  <link rel="stylesheet" href="libs/highlight.js/9.12.0/monokai.css">
   
 
   
@@ -263,6 +263,10 @@
 
 <body>
   
+<div id="logo" style="position: fixed; top: 20px; left: 20px; z-index: 1">
+    <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg" />
+</div>
+
 
   <div class="reveal">
 
@@ -275,63 +279,12 @@
     
         <section >
             
-            <h1><a id="user-content-mongolearnpod" class="anchor" href="#mongolearnpod" aria-hidden="true"></a>MongoLearnPod</h1>
-<p>This a standalone educational GitPod module designed to teach people how to use basic CRUD methods with mongoDB.</p>
-<h2><a id="user-content-unit-learning-objective" class="anchor" href="#unit-learning-objective" aria-hidden="true"></a>Unit Learning Objective</h2>
-<p>Students should be to:</p>
+            <h3><a id="user-content-learning-mongo-with-gitpod" class="anchor" href="#learning-mongo-with-gitpod" aria-hidden="true"></a>Learning Mongo with GitPod</h3>
 <ol>
-<li>Teach Basic CRUD methods with MongoDB &amp; GitPod</li>
-<li>Use Docker Compose to start and stop mongoDB environment</li>
-<li>Use Docker, Terminal &amp; MongoExpress to teach basic mongoDB concepts</li>
-<li>Distinguish between the name of a docker image (mongo) and the container name (learn-mongo)</li>
-<li>Use NPM Scripts to store docker commands</li>
+<li>Introduction</li>
+<li><a href="01-Oh-CRUD/export/index.html">Oh CRUD</a></li>
 </ol>
-<h1><a id="user-content-read-and-code-along" class="anchor" href="#read-and-code-along" aria-hidden="true"></a>Read and Code Along!</h1>
-<p>Assuming you are logged into github, then just click the button below. Phone, Tablet, Mac, Windows, Linux, Chromebook, as long as GitPod runs, you can learn how to code, anywhere!</p>
-<p align="center">  
-   <a href="https://gitpod.io/#https://github.com/HansUXdev/MongoLearnPod"><img src="http://gitpod.io/button/open-in-gitpod.svg" alt="Open on GitPod" height="50px"/></a>  
-</p>
-<p>Once GitPod has started up, just type <code>mongo</code> into the terminal and it should look something like the gif below.</p>
-<p><a href=""><img src="lessons/start.gif" alt="GIF of Slideshow"></a></p>
-<p>Unfortunately, the fancy slideshow extension I just for this lesson doesn’t work in gitpod… yet (stay tuned).</p>
-<p>In the meantime, I recorded a <a href="https://recordit.co/ns0fuHZheI">short video</a> of the lesson.</p>
-<p>You can also view the slide on vscode with <a href="https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal">vscode-reveal</a>. If you have the extension installed you can follow long with the fancy <a href="./01-CRUD.md">slideshow</a>. Lastly, you can just read it in readme formate and it’ll just look slightly less presentable…</p>
-<p><a href=""><img src="lessons/lesson1.gif" alt="GIF of Slideshow"></a></p>
-<p>Last but not least, I will be streaming lessons on <a href="https://www.twitch.tv/hansoncoding/about">my twitch channel</a> so consider joining the lesson live.</p>
-<p><img src="https://img.shields.io/twitch/status/hansoncoding?style=for-the-badge" alt="Twitch Status"></p>
-<h1><a id="user-content-what-did-you-build" class="anchor" href="#what-did-you-build" aria-hidden="true"></a>What did you build</h1>
-<p>Today we’ll be learning how to use Docker Compose to learn MongoDB.</p>
-<h2><a id="user-content-unit-learning-objective-1" class="anchor" href="#unit-learning-objective-1" aria-hidden="true"></a>Unit Learning Objective</h2>
-<p>Students should be to:</p>
-<ol>
-<li>Use GitPod to startup a mongoDB environment.</li>
-<li>Use docker exec to access the mongoDB Shell</li>
-<li>Distinguish between the name of a docker image (mongo) and the container name (learn-mongo)</li>
-<li>Use NPM Scripts to store docker commands such as docker exec for mongo shell</li>
-</ol>
-<h2><a id="user-content-using-mongo-shell-to-build-a-database" class="anchor" href="#using-mongo-shell-to-build-a-database" aria-hidden="true"></a>Using Mongo Shell to build a database</h2>
-<p>Type the following into a NEW terminal: <code> mongo</code>.</p>
-<h1><a id="user-content-conclusion" class="anchor" href="#conclusion" aria-hidden="true"></a>Conclusion</h1>
-<p>If you like it this repo and want to see more on this topic, give it a star.</p>
-<p>If there is enough interest in it, I’ll add it too the final draft of  <a href="https://github.com/HansUXdev/JavaScript-First">JavaScript-First</a> which is an open source book that teaches people how to code with JavaScript using the node.js runtime environment rather than a browser and by the end, you will build a server and a website using JavaScript.</p>
-<p align="center">
-   <a href="https://github.com/HansUXdev/JavaScript-First">
-      <img src="https://raw.githubusercontent.com/HansUXdev/JavaScript-First/2acf5840c15af96602aceb66303ea69c5b75e344/logo.svg" style="max-width:50%;" height="200px" alt="JavaScript Logo"/>
-   </a>
-</p>
-<!-- ## Key learnings -->
-<h2><a id="user-content-tips-and-advice" class="anchor" href="#tips-and-advice" aria-hidden="true"></a>Tips and advice</h2>
-<ol>
-<li>
-<p><a href="https://www.w3resource.com/mongodb/databases-documents-collections.php#:~:text=A%20collection%20is%20analogous%20to,are%20not%20same%20in%20structure.&amp;text=In%20a%20relational%20database%20like,formula%20defining%20structure%20of%20data">w3-Resource</a></p>
-</li>
-<li>
-<p>Try the <a href="https://www.freecodecamp.org/news/learn-mongodb-a4ce205e7739/">freecodecamp lesson</a></p>
-</li>
-</ol>
-<!-- ## Final thoughts and next steps
-   
-1. Try this out with the local docker version. -->
+
             </section>
     
 
@@ -354,13 +307,13 @@
         controlsLayout: 'bottom-right',
         controlsBackArrows: 'faded',
         progress: true,
-        slideNumber: false,
+        slideNumber: true,
         history: true,
         keyboard: true,
         overview: true,
         center: true,
         touch: true,
-        loop: false,
+        loop: true,
         rtl: false,
         shuffle: false,
         fragments: true,
@@ -369,14 +322,14 @@
         help: true,
         showNotes: false,
         autoPlayMedia: false,
-        autoSlide: 0,
+        autoSlide: 50000,
         autoSlideStoppable: true,
         autoSlideMethod: Reveal.navigateNext,
         defaultTiming: 120,
         mouseWheel: false,
         hideAddressBar: true,
         previewLinks: false,
-        transition: 'default',
+        transition: 'slide',
         transitionSpeed: 'default',
         backgroundTransition: 'default',
         viewDistance: 3,
@@ -410,11 +363,7 @@
             
 
             
-        { src: 'libs/reveal.js/3.8.0/plugin/chalkboard/chalkboard.js' },
-            
 
-            
-        { src: 'libs/reveal.js/3.8.0/plugin/menu/menu.js' },
             
 
             
